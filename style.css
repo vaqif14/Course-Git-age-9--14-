@@ -30,3 +30,6 @@
 .page-link:hover{
     color: #ece90e;
 }
+.title:hover{
+    color: red ;
+}
