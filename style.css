@@ -1,8 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Itim&display=swap');
 @-webkit-keyframes rotate-hor-center{0%{-webkit-transform:rotateX(0);transform:rotateX(0)}100%{-webkit-transform:rotateX(-360deg);transform:rotateX(-360deg)}}@keyframes rotate-hor-center{0%{-webkit-transform:rotateX(0);transform:rotateX(0)}100%{-webkit-transform:rotateX(-360deg);transform:rotateX(-360deg)}}
- body{
-     font-family: 'Itim', cursive;
- }
+
 .navbar{
     padding: 5px 0;
     background: #000;
@@ -12,6 +10,7 @@
     align-items: center;
 }
 .page-link{
+    font-family: 'Itim', cursive;
     text-decoration: none;
     color: white;
     padding: 14px;
@@ -19,6 +18,7 @@
     -webkit-animation:rotate-hor-center .5s cubic-bezier(.455,.03,.515,.955) both;animation:rotate-hor-center .8s cubic-bezier(.455,.03,.515,.955) both
 }
 .title{
+    font-family: 'Itim', cursive;
     text-decoration: none;
     text-transform: uppercase;
     margin-left: 15px;
@@ -32,4 +32,19 @@
 }
 .title:hover{
     color: red ;
+}
+.users{
+    margin-right: 160px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    padding-top: 30px;
+}
+.element-style{
+  border: solid #000;
+border-width:  1px;
+    font-family: 'Itim', cursive;
+    font-size: 25px;
+    padding: 50px;
+    text-align: center;
 }
