@@ -1,0 +1,28 @@
+.abouttaxi{
+    font-size: 32px;
+    font-family:UberMoveText, system-ui, "Helvetica Neue", Helvetica, Arial, sans-serif;;
+}
+
+.taxi1{
+    font-size: 18px;
+}
+
+.Taxi{
+    display: flex;
+   align-items: center;
+   justify-content: center;
+    
+  }
+
+  .Muber{
+    display: flex;
+ flex-direction: row;
+  justify-content: space-around;
+  margin-top: 230px;  
+}
+
+.MuberTaxis{
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+}
